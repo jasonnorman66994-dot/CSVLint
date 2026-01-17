@@ -103,6 +103,8 @@ def draw_color_sequence(y, nr, dgrstep, xcirc, ycirc, degrlabel):
     dgrline = 60 + (2 * dgrstep)
     testwidth = 64
     xoff = 80
+    xprev = 0
+    yprev = 0
 
     # xml output
     xml_1 = ("<!-- normal background (%d colors) -->\n<WordsStyle styleID=\"0\" name=\"Default\" fgColor=\"000000\" bgColor=\"FFFFFF\" fontName=\"\" fontStyle=\"0\" />\n" % nr)
